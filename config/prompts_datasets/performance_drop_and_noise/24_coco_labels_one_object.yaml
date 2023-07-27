@@ -1,0 +1,30 @@
+template: a photo of $ind_ar1 $object1
+generate: permutation
+objects:
+  list:
+    [
+      bicycle,
+      car,
+      motorcycle,
+      truck,
+      fire hydrant,
+      bench,
+      bird,
+      cat,
+      dog,
+      horse,
+      sheep,
+      cow,
+      elephant,
+      bear,
+      zebra,
+      giraffe,
+      banana,
+      apple,
+      broccoli,
+      carrot,
+      chair,
+      couch,
+      oven,
+      refrigerator,
+    ]

@@ -1,0 +1,10 @@
+template: a photo of $ind_ar1 $adj1 $object1 and $ind_ar2 $adj2 $object2
+unique: [[object1, object2], [adj1, adj2]]
+object1:
+  list: ["car", "giraffe", "elephant", "refrigerator", "zebra"]
+object2:
+  list: ["car", "giraffe", "elephant", "refrigerator", "zebra"]
+adj1:
+  list: ["red", "yellow", "green", "blue", "purple", "pink"]
+adj2:
+  list: ["red", "yellow", "green", "blue", "purple", "pink"]

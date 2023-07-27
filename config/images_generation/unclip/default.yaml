@@ -1,0 +1,2 @@
+model_path: "kakaobrain/karlo-v1-alpha"
+pipeline: "unclip"

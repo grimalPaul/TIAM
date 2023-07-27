@@ -1,0 +1,5 @@
+model_path: "CompVis/stable-diffusion-v1-4"
+guidance_scale: 7.5
+scheduler: "DPMSolverMultistepScheduler"
+inference_steps: 50
+pipeline: "attend_and_excite"

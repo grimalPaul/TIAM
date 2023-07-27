@@ -1,0 +1,27 @@
+name: tiam
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - accelerate == 0.18.0
+      - datasets==2.12.0
+      - diffusers==0.16.1
+      - omegaconf==2.3.0
+      - sentencepiece==0.1.99
+      - transformers==4.28.1
+      - ultralytics==8.0.87
+      - opencv-python==4.7.0.72
+      - colour-science==0.4.2
+      - torch>=2.0.0
+      - Pillow==9.4.0
+      - tokenizers
+      - seaborn
+      - matplotlib
+      - pandas
+      - numpy
+      - nltk
+      - tqdm
+      - tabulate

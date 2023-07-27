@@ -1,0 +1,4 @@
+template: a photo of $ind_ar1 $object1 next to $ind_ar2 $object2 with $ind_ar3 $object3 and $ind_ar4 $object4
+generate: permutation
+objects:
+  list: ["car", "giraffe", "elephant", "refrigerator", "zebra"]

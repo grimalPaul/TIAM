@@ -1,0 +1,5 @@
+template: a photo of $ind_ar1 $adj1 $object1
+object1:
+  list: ["car", "giraffe", "elephant", "refrigerator", "zebra"]
+adj1:
+  list: ["red", "yellow", "green", "blue", "purple", "pink"]

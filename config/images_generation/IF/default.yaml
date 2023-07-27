@@ -1,0 +1,4 @@
+pipeline: "IF"
+model_path:
+  stage_1_path: "DeepFloyd/IF-I-L-v1.0"
+  stage_2_path: "DeepFloyd/IF-II-M-v1.0"

@@ -1,0 +1,7 @@
+params_compute_stats:
+  conf: [0.25]
+  remove_superposed: true
+  remove_supervised_type: ["bbox", "seg"]
+  remove_superposed_iou_min: 0.95
+  keep_superposed_with_best_conf: false
+image_size: [512, 512]
