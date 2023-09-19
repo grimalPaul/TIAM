@@ -171,18 +171,16 @@ We will generate 8 combinations:
 You can specify in your template whether to use 'a' or 'an' in your sentence (e.g. 'a cat' or 'an orange'). To do this, you can include the corresponding indefinite article in your template with the placeholder `$ind_ar`, and specify the index if there is more than one indefinite article in the sentence."  e.g.
 
 ```yaml
-config:
-    template : $ind_ar $adj1 $object1 and $ind_ar2 $adj2 $object2
-    unique: [[object1,object2]]
-        adj1:
-            list: [orange,blue]
-        object1:
-            list: [cat,dog]
-        adj2:
-            list: [orange, blue]
-        object2:
-            list: [cat,dog]
- 
+template : $ind_ar1 $adj1 $object1 and $ind_ar2 $adj2 $object2
+unique: [[object1,object2]]
+adj1:
+    list: [orange,blue]
+object1:
+    list: [cat,dog]
+adj2:
+    list: [orange, blue]
+object2:
+    list: [cat,dog]
 ```
 
 Please note that it only works if the `ind_ar` is before an object to replace in the template. e.g. `a $ind_ar $object` will work, but `$ind_ar dog` will not.
@@ -192,18 +190,16 @@ Please note that it only works if the `ind_ar` is before an object to replace in
 In your template, name the adjective you want to apply to the noun with the placeholder `$adj` and specify the **same** index if there is more than one adjective-noun in the sentence. e.g.
 
 ```yaml
-
-config:
-    template : $ind_ar1 $adj1 $object1 and $ind_ar2 $adj2 $object2
-    unique: [[object1,object2]]
-        adj1:
-            list: [orange,blue]
-        object1:
-            list: [cat,dog]
-        adj2:
-            list: [orange, blue]
-        object2:
-            list: [cat,dog]
+template : $ind_ar1 $adj1 $object1 and $ind_ar2 $adj2 $object2
+unique: [[object1,object2]]
+adj1:
+    list: [orange,blue]
+object1:
+    list: [cat,dog]
+adj2:
+    list: [orange, blue]
+object2:
+    list: [cat,dog]
 ```
 
 > :warning: Use `$adjX`-`$objectX`
