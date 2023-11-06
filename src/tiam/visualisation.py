@@ -184,7 +184,7 @@ def success_rate_attribute_binding(
     fig, ax = plt.subplots(figsize=(2 * len(conf), 5))
     sns.barplot(data=score, x=desc_conf, y=0, hue="position", ax=ax)
 
-    ax.set_ylabel("Binding success rate among detected object")
+    ax.set_ylabel("Binding success rate among detected objects")
     ax.legend(loc="lower right", fontsize=11, ncol=4)
     ax.grid(axis="y", which="major", linestyle="--", linewidth="0.5", color="gray")
     ax.set_title(

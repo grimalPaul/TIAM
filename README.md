@@ -245,6 +245,8 @@ python  run_images_generation.py \
 
 All your data will be saved in a tar file `images.tar` in `save_dir`, and will *generate `X` images per prompt using the 0 to `X-1` seeds.* In the `save_dir` we will save a copy of the dataset containing the prompts. We will use this to compute and save the score of the experiment.
 
+If you have multiple GPUs, it will use all of them. You must count one main process and one process per GPU.
+
 If a problem occurs during generation, you can resume the generation with the index `index.txt` automatically generated during the generation.  It will only generate the missing images. Precise the tarball and index_file like this:
 
 ```bash
@@ -315,7 +317,7 @@ Please do not hesitate to generate a dataset with the script `run_dataset_genera
 
 First download the model: [ultralytics/yolov8x-seg](https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8x-seg.pt)
 
-We use multiprocessing for this step. If you have more than one GPU, you must count 1 main process, and 2 processes per GPU. In other case, we only use two processes.
+We use multiprocessing for this step. If you have more than one GPU, you must count 1 main process, and 2 processes per GPU. Otherwise, we only use two processes.
 
 ```bash
 python run_detection.py \
