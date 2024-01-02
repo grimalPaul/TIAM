@@ -1,15 +1,17 @@
-# TIAM - A Metric for Evaluating Alignment in Text-to-Image Generation
+# [WACV 2024] TIAM - A Metric for Evaluating Alignment in Text-to-Image Generation
 
 > Grimal Paul, Le Borgne Hervé, Ferret Olivier, Tourille Julien
 > Université Paris-Saclay, CEA, List, F-91120, Palaiseau, France
 >
-> The progress in the generation of synthetic images has made it crucial to assess their quality. While several metrics have been proposed to assess the rendering of images, it is crucial for Text-to-Image (T2I) models, which generate images based on a prompt, to consider additional aspects such as to which extent the generated image matches the important content of the prompt. Moreover, although the generated images usually result from a random starting point, the influence of this one is generally not considered. In this article, we propose a new metric based on prompt templates to study the alignment between the content specified in the prompt and the corresponding generated images. It allows us to better characterize the alignment in terms of the type of the specified objects, their number, and their color. We conducted a study on several recent T2I models about various aspects. An additional interesting result we obtained with our approach is that image quality can vary drastically depending on the latent noise used as a seed for the images. We also quantify the influence of the number of concepts in the prompt, their order as well as their (color) attributes. Finally, our method allows us to identify some latent seeds that produce better images than others, opening novel directions of research on this understudied topic.
+> The progress in the generation of synthetic images has made it crucial to assess their quality. While several metrics have been proposed to assess the rendering of images, it is crucial for Text-to-Image (T2I) models, which generate images based on a prompt, to consider additional aspects such as to which extent the generated image matches the important content of the prompt. Moreover, although the generated images usually result from a random starting point, the influence of this one is generally not considered. In this article, we propose a new metric based on prompt templates to study the alignment between the content specified in the prompt and the corresponding generated images. It allows us to better characterize the alignment in terms of the type of the specified objects, their number, and their color. We conducted a study on several recent T2I models about various aspects. An additional interesting result we obtained with our approach is that image quality can vary drastically depending on the noise used as a seed for the images. We also quantify the influence of the number of concepts in the prompt, their order as well as their (color) attributes. Finally, our method allows us to identify some seeds that produce better images than others, opening novel directions of research on this understudied topic.
+>
+> [[WACV 2024 pdf]](https://openaccess.thecvf.com/content/WACV2024/html/Grimal_TIAM_-_A_Metric_for_Evaluating_Alignment_in_Text-to-Image_Generation_WACV_2024_paper.html)
 >
 > [![arxiv](https://img.shields.io/badge/arXiv-2307.05134-b31b1b.svg)](https://arxiv.org/abs/2307.05134)
 
 ## Table of Contents
 
-- [TIAM - A Metric for Evaluating Alignment in Text-to-Image Generation](#tiam---a-metric-for-evaluating-alignment-in-text-to-image-generation)
+- [\[WACV 2024\] TIAM - A Metric for Evaluating Alignment in Text-to-Image Generation](#wacv-2024-tiam---a-metric-for-evaluating-alignment-in-text-to-image-generation)
   - [Table of Contents](#table-of-contents)
   - [Running TIAM](#running-tiam)
     - [Setup](#setup)
@@ -466,13 +468,13 @@ Path2Directory
 ## Citation
 
 ```bibtex
-@misc{grimal2023tiam,
-      title={TIAM -- A Metric for Evaluating Alignment in Text-to-Image Generation}, 
-      author={Paul Grimal and Hervé Le Borgne and Olivier Ferret and Julien Tourille},
-      year={2023},
-      eprint={2307.05134},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@InProceedings{Grimal_2024_WACV,
+    author    = {Grimal, Paul and Le Borgne, Herv\'e and Ferret, Olivier and Tourille, Julien},
+    title     = {TIAM - A Metric for Evaluating Alignment in Text-to-Image Generation},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {January},
+    year      = {2024},
+    pages     = {2890-2899}
 }
 ```
 
