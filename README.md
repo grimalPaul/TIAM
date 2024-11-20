@@ -35,7 +35,7 @@
 Create a conda env with the following command:
 
 ```bash
-conda env create -f environment.yml
+conda env create -f environment.yaml
 ```
 
 And download :
