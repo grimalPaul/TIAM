@@ -252,7 +252,7 @@ If you have multiple GPUs, it will use all of them. You must count one main proc
 If a problem occurs during generation, you can resume the generation with the index `index.txt` automatically generated during the generation.  It will only generate the missing images. Precise the tarball and index_file like this:
 
 ```bash
-run_images_generation.py \
+python  run_images_generation.py \
     --config config \
     --save_dir Path2directory/images.tar \
     --index_file Path2directory/index.txt \
