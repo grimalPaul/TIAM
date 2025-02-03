@@ -1,6 +1,6 @@
 # [WACV 2024] TIAM - A Metric for Evaluating Alignment in Text-to-Image Generation
 
-➡️**New, easy-to-use version of TIAM score calculation on this [github](https://github.com/CEA-LIST/TIAMv2)**
+# 🚨 New, easy-to-use version of TIAM score calculation on this [github](https://github.com/CEA-LIST/TIAMv2)**
 
 > Grimal Paul, Le Borgne Hervé, Ferret Olivier, Tourille Julien
 > Université Paris-Saclay, CEA, List, F-91120, Palaiseau, France
